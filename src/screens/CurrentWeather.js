@@ -49,15 +49,15 @@ const styles = StyleSheet.create({
   },
   temp: {
     color: "black",
-    fontSize: "48",
+    fontSize: 48,
   },
   feels: {
-    fontSize: "30",
+    fontSize: 30,
     color: "black",
   },
 
   highLow: {
-    fontSize: "20",
+    fontSize: 20,
     color: "black",
   },
 
@@ -73,10 +73,10 @@ const styles = StyleSheet.create({
   },
 
   description: {
-    fontSize: "48",
+    fontSize: 48,
   },
   message: {
-    fontSize: "30",
+    fontSize: 30,
   },
 });
 

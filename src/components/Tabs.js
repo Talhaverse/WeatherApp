@@ -25,7 +25,7 @@ return(
             },
             headerTitleStyle: {
                 fontWeight: "bold",
-                fontSize: "25",
+                fontSize: 25,
                 color:"tomato"
             }
           
