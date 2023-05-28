@@ -21,7 +21,7 @@ return(
     
     <SafeAreaView style={container}>
 
-<ImageBackground source={require('../../assets/upcoming-background.jpg')} style = {image}>
+    <ImageBackground source={require('../../assets/bg.jpg')} style = {image}>
 
 
         <FlatList
@@ -38,14 +38,17 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         // status bar is for android 
-        marginTop: StatusBar.currentHeight || 0,
+        // marginTop: StatusBar.currentHeight || 0,
         backgroundColor: 'royalblue'
 
     },
 
 
     image: {
-        flex:1
+        flex:1,
+        resizeMode:'cover',
+       
+
     }
 
 })

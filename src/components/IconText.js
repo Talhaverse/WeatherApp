@@ -2,6 +2,7 @@ import React from "react";
 import {View,Text,StyleSheet} from 'react-native';
 import {Feather} from '@expo/vector-icons'
 
+
 const IconText = (props) => {
     const {iconName,iconColor,bodyText,bodyTextStyles} = props
     const {textTheme, container} = styles

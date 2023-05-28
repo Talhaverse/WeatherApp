@@ -28,8 +28,9 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        borderWidth:5,
-        backgroundColor: 'indianred'
+        borderWidth:2,
+        borderRadius:50,
+        backgroundColor: '#12a4d9'
 
     },
 
@@ -40,13 +41,13 @@ const styles = StyleSheet.create({
     },
 
     temp: {
-        color: 'white',
-        fontSize:20,
+        color: '#322e2f',
+        fontSize:30,
     },
 
     date: {
-        color: 'white',
-        fontSize:15,
+        color: '#322e2f',
+        fontSize:20,
     },
 })
 

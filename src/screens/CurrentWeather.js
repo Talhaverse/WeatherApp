@@ -28,9 +28,13 @@ const weatherCondition = weather[0].main
     <SafeAreaView style={[wrapper,{backgroundColor:weatherType[weatherCondition].backgroundColor}
     ]}>
       <View style={container}>
+
         <Feather name={weatherType[weatherCondition].icon} size={100} color="white" />
-        <Text>Current Weather</Text>
+
+        <Text style={message}>Current Weather</Text>
+
         <Text style={tempStyles}>{`${temp}°`}</Text>
+
         <Text style={feels}>{`Feels like ${feels_like}°`}</Text>
 
         <RowText
@@ -57,42 +61,60 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-around",
+    
+    
   },
 
   wrapper: {
     flex: 1,
+    
   },
   tempStyles: {
     color: "black",
     fontSize: 48,
+    
+
   },
   feels: {
     fontSize: 30,
     color: "black",
+    
+
   },
 
   highLow: {
-    fontSize: 20,
+    fontSize: 30,
     color: "black",
+    
   },
 
   highLowWrapper: {
     flexDirection: "row",
+    padding:20,
+    borderWidth:2,
+    borderRadius:5
   },
 
   bodyWrapper: {
-    justifyContent: "flex-end",
+    justifyContent: 'space-between',
     alignItems: "flex-start",
     paddingLeft: 25,
     marginBottom: 40,
+    borderWidth:2,
+    borderRadius:5,
+    padding:10,
+    margin:10
+
   },
 
   description: {
-    fontSize: 43,
+    fontSize: 30,
+    
   },
   message: {
     fontSize: 25,
+    
   },
 });
 

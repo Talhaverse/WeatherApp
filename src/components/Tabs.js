@@ -13,19 +13,20 @@ const Tabs = ({weather}) => {
 return(
 <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: "tomato",
-          tabBarInactiveColor: "grey",
+          tabBarActiveTintColor: "black",
+          tabBarInactiveColor: "white",
           tabBarStyle:{
             backgroundColor: "lightblue",
           },
             headerStyle: {
                 backgroundColor: "lightblue",
 
+
             },
             headerTitleStyle: {
                 fontWeight: "bold",
                 fontSize: 25,
-                color:"tomato"
+                color:"tomato",
             }
           
         }}
