@@ -30,12 +30,12 @@ const weatherCondition = weather[0].main
       <View style={container}>
         <Feather name={weatherType[weatherCondition].icon} size={100} color="white" />
         <Text>Current Weather</Text>
-        <Text style={tempStyles}>{temp}</Text>
-        <Text style={feels}>{`Feels like ${feels_like}`}</Text>
+        <Text style={tempStyles}>{`${temp}°`}</Text>
+        <Text style={feels}>{`Feels like ${feels_like}°`}</Text>
 
         <RowText
-          messageOne={`High:${temp_max}`}
-          messageTwo={`Low:${temp_min}`}
+          messageOne={`High:${temp_max}° `}
+          messageTwo={`Low:${temp_min}°`}
           containerStyles={highLowWrapper}
           messageOneStyles={highLow}
           messageTwoStyles={highLow}
@@ -55,7 +55,6 @@ const weatherCondition = weather[0].main
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "pink",
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -63,7 +62,6 @@ const styles = StyleSheet.create({
 
   wrapper: {
     flex: 1,
-    backgroundColor: "pink",
   },
   tempStyles: {
     color: "black",
@@ -91,10 +89,10 @@ const styles = StyleSheet.create({
   },
 
   description: {
-    fontSize: 48,
+    fontSize: 43,
   },
   message: {
-    fontSize: 30,
+    fontSize: 25,
   },
 });
 
