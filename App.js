@@ -11,20 +11,24 @@ const App = () => {
   const {loading,error,weather} = useGetWeather()
   console.log(loading,error,weather)
 
-  if(loading){
-    return(
+  if(weather && weather.weatherlist) {
+    return (
+       <NavigationContainer>
+        <Tabs weather={weather} />
+       </NavigationContainer>
+    );
+  }
+    
+  return(
     <View style={styles.container}>
       <ActivityIndicator size="large" color="blue" />
     </View>
+    
     )
-  }
+
 
   
-  return (
-    <NavigationContainer>
-      <Tabs />
-    </NavigationContainer>
-  );
+  
 };
 const styles = StyleSheet.create({
   container: {
