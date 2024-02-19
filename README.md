@@ -15,7 +15,7 @@ To maintain a consistent code style and adhere to industry standards, I integrat
 
 ## Navigation
 Seamless navigation between different screens is essential for a smooth user experience. By implementing navigation techniques, I learned how to create intuitive user interfaces and enable effortless transitions within the app. This greatly enhances usability and engagement.
-
+used react navigation here
 ## Props and Componentization
 Leveraging the power of props, I created reusable components that enhanced code modularity and reusability. Passing data and functions between components allowed for more efficient development and simplified state management.
 
