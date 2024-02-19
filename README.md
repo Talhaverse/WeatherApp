@@ -36,6 +36,7 @@ Feel free to reach out if you have any questions or suggestions for improvements
 
 ## Technologies Used
 - React Native
+- React navigation
 - Expo
 - API Integration
 - ESLint
