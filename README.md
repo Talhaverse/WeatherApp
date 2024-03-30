@@ -2,7 +2,7 @@
 
 # Live Weather App
 
-This Live Weather App, built using React Native and Expo, is designed to provide users with real-time weather information based on their location. Through this project, I aimed to expand my skills and knowledge in various areas of app development, including API integration, code optimization, best coding practices, props, navigation, state management, JSX, and more. Here's an overview of the key learning outcomes from this project:
+The Live Weather App, built using React Native and Expo, is designed to provide users with real-time weather information based on their location. Through this project, I aimed to expand my skills and knowledge in various areas of app development, including API integration, code optimization, best coding practices, props, navigation, state management, JSX, and more. Here's an overview of the key learning outcomes from this project:
 
 ## API Integration
 Integrating an external API was a crucial aspect of this project. By connecting with a weather API, I successfully retrieved current weather data and upcoming forecasts. I gained a deep understanding of handling API requests, parsing JSON data, and utilizing the fetched information to display accurate weather updates.
